@@ -1,0 +1,17 @@
+{
+  "name": "jgxy",
+  "description": "",
+  "main": "script.js",
+  "authors": [
+    "Agp12010 <lukeluke0923@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
