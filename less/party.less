@@ -1,0 +1,63 @@
+.party {
+  width: 100%;
+  height: 270px;
+  .party-content {
+    border-bottom: 1px solid @lineColor;
+    width: @fixWidth;
+    margin: 0 auto;
+    padding: 20px;
+
+    .party-title {
+      img {
+        width: 100%;
+      }
+    }
+    .party-room {
+      float: left;
+      padding-right: 10px;
+    }
+    .party-ques {
+      float: right;
+      padding-left: 10px;
+      .que-title {
+        background-color: #fff !important;
+        display: block;
+        margin: 20px 110px 10px 110px;
+        h5 {
+          border: 1px solid red;
+          color: red;
+          text-align: center;
+          padding: 10px 20px;
+        }
+        &:hover {
+          h5 {
+            cursor: default;
+            background-color: red;
+            color: @defaultColor;
+          }
+        }
+      }
+    }
+    .que-content {
+      width: 100%;
+      .que-btn {
+        display: inline-block;
+        margin-left: 22px;
+        margin-right: 22px;
+        width: 130px;
+        height: 50px;
+        overflow: hidden;
+        border-radius: 5px;
+        img {
+          position: relative;
+        }
+      }
+      .que-line {
+        padding: 0 20px;
+      }
+      .below {
+        margin-top: 5px;
+      }
+    }
+  }
+}

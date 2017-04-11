@@ -1,8 +1,11 @@
 @import 'var.less';
+@import "global.less";
 @import 'logo.less';
 @import 'nav.less';
 @import "flexslider.less";
 @import "intro.less";
+@import "party.less";
+@import "footer.less";
 
 * {
   padding: 0;
@@ -33,7 +36,7 @@ a {
   padding: 0;
 }
 @media screen and (max-width: @fixWidth) {
-	.nav, .topbar, #banner,.logo ,.intro, .content, .intro-text, .intro-title {
+	.nav,.party,.topbar,#banner,.logo,.intro,.content,.intro-text,.intro-title,.footer {
 		width: @fixWidth!important;
 	}
 }

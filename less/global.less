@@ -1,0 +1,50 @@
+.list {
+  float: left;
+  padding-left: 20px;
+  ul {
+    margin-top: 20px;
+    li {
+      line-height: 33px;
+      a {
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      span {
+        margin-left: 35px;
+      }
+    }
+  }
+}
+.pic {
+  padding: 0;
+  float: left;
+  margin-top: 20px;
+  img {
+    padding: 0;
+    height: 170px;
+    border-radius: 3px;
+  }
+}
+.title {
+  background-color: @dluflBlue;
+  color: @defaultColor;
+  h5 {
+    padding: 10px 30px;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0;
+    background-color: @defaultColor;
+    border: 1px solid @dluflBlue;
+    color: @dluflBlue;
+  }
+  a {
+    float: right;
+    color: @defaultColor;
+    line-height: 39px;
+    margin-right: 10px;
+    &:hover {
+      color: @defaultColor;
+    }
+  }
+}
