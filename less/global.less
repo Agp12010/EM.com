@@ -4,14 +4,21 @@
   ul {
     margin-top: 20px;
     li {
-      line-height: 33px;
+      line-height: 20px;
       a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 320px;
+        display: inline-block;
         &:hover {
           text-decoration: underline;
         }
       }
       span {
-        margin-left: 35px;
+        float: right;
+        color: @dluflBlue;
+        margin-left: 10px;
       }
     }
   }
@@ -31,12 +38,13 @@
   color: @defaultColor;
   h5 {
     padding: 10px 30px;
-    font-size: 17px;
+    font-size: 20px;
     display: inline-block;
     margin: 0;
     background-color: @defaultColor;
     border: 1px solid @dluflBlue;
     color: @dluflBlue;
+    font-weight: bold;
   }
   a {
     float: right;

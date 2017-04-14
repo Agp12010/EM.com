@@ -13,5 +13,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "flexslider": "^2.6.3",
+    "jquery-color": "^2.1.2"
+  }
 }

@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var navbar = ".nav .nav-bar ul li";
   var queBtn = ".party .party-content .party-ques .que-content .que-btn img";
+  var proBtn = ".practice .practice-content .practice-project .project-content .project-btn img";
   $(navbar).mouseenter(function(){
     console.log('划入')
     $(this).animate({
@@ -36,6 +37,23 @@ $(document).ready(function() {
     $(this).stop().animate({
         width: "130",
         height: "50",
+        left: "0px",
+        top: "0px"
+    }, 200);
+  })
+  $(proBtn).mouseenter(function(){
+    var wValue = 1.1 * $(this).width();
+    var hValue = 1.1 * $(this).height();
+    $(this).stop().animate({
+        width: wValue,
+        height: hValue,
+        left: ("-" + (0.1 * $(this).width()) /2),
+        top: ("-" + (0.1 * $(this).height()) /2)
+    }, 200);
+  }).mouseleave(function(){
+    $(this).stop().animate({
+        width: "160",
+        height: "80",
         left: "0px",
         top: "0px"
     }, 200);
